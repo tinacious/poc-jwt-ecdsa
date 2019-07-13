@@ -2,22 +2,10 @@
 
 Proof of concept script to demonstrate asymmetric signing using Elliptic Curve Digital Signature Algorithm (ECDSA).
 
+Check out the [working demo](https://jwt-ecdsa-poc.herokuapp.com/)! 👯
+
 
 ## Overview
-
-This project has the following directory structure:
-
-```
-.
-├── .gitignore
-├── .nvmrc
-├── README.md
-├── index.js
-├── keys
-│   └── .gitkeep
-├── package.json
-└── yarn.lock
-```
 
 1. Generate a private-public key pair signed using elliptic curve cryptography (ECC) algorithm ECDSA
 2. Use the private key on the back-end to sign your token
@@ -46,17 +34,17 @@ Run the script which will output information into the console (`node index.js`):
 
 This should print output in the console with your asymmetrically signed JWT and public key.
 
-To see how it's working, check out this file `./index.js`.
+To see how it works, check out this file `./index.js`.
 
 
 ## Development
 
-There are a few parts to this project
+There are a few parts to this project:
 
-- `index.js` will have the bulk of the information you're looking for
+- `index.js` will have the entire process outlined in a simplified way
 - `demo`
     - `./server` has the server-side implementation
-    - `./client` has the client-side implementation. The client app is a nested repository as it's a Vue.js app
+    - `./client` has the client-side implementation. The client app is a nested repository (Vue.js app)
 
 
 ## Deployment
