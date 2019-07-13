@@ -1,0 +1,13 @@
+{
+  "name": "poc-jwt-ecdsa",
+  "version": "1.0.0",
+  "description": "Proof of concept of asymmetrical signing using the ECDSA algorithm for JWT tokens",
+  "main": "index.js",
+  "author": "Tina Holly",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
