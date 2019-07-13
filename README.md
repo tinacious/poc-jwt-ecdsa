@@ -31,6 +31,8 @@ Run the following commands in a Unix shell to generate your private and public k
     openssl ecparam -name prime256v1 -genkey -out keys/private.key
     openssl ec -in keys/private.key -pubout -out keys/public.key
 
+These commands are also in the executable file named `./generate_keys.sh`.
+
 The keys will be generated in the `./keys` directory.
 
 ![](screenshot-output.png)
@@ -38,11 +40,23 @@ The keys will be generated in the `./keys` directory.
 
 ## Usage
 
-Run the script:
+Run the script which will output information into the console (`node index.js`):
 
-    node index.js
+    yarn example
 
 This should print output in the console with your asymmetrically signed JWT and public key.
+
+To see how it's working, check out this file `./index.js`.
+
+
+## Development
+
+There are a few parts to this project
+
+- `index.js` will have the bulk of the information you're looking for
+- `demo`
+    - `./server` has the server-side implementation
+    - `./client` has the client-side implementation. The client app is a nested repository as it's a Vue.js app
 
 
 ## Further reading
