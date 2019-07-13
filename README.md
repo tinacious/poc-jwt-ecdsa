@@ -59,6 +59,13 @@ There are a few parts to this project
     - `./client` has the client-side implementation. The client app is a nested repository as it's a Vue.js app
 
 
+## Deployment
+
+Deployed to Heroku:
+
+    git push heroku master
+
+
 ## Further reading
 
 - [ECDSA: The digital signature algorithm of a better internet](https://blog.cloudflare.com/ecdsa-the-digital-signature-algorithm-of-a-better-internet/) by Cloudflare
