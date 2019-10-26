@@ -58,3 +58,6 @@ Deployed to Heroku:
 
 - [ECDSA: The digital signature algorithm of a better internet](https://blog.cloudflare.com/ecdsa-the-digital-signature-algorithm-of-a-better-internet/) by Cloudflare
 - [Seriously, stop using RSA](https://blog.trailofbits.com/2019/07/08/fuck-rsa/) by Trail of Bits
+- [Bitcoin uses ECDSA](https://en.bitcoin.it/wiki/Elliptic_Curve_Digital_Signature_Algorithm) to ensure funds can only be spent by their rightful owner
+- [Comparing ECDSA vs. RSA](https://www.ssl.com/article/comparing-ecdsa-vs-rsa/) by SSL.com
+- [Elliptic Curve Digital Signature Algorithm](https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm) on Wikipedia
